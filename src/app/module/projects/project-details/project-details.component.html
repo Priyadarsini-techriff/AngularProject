@@ -1,0 +1,47 @@
+<p>project-details works!</p>
+<ng-container *ngIf="projectDetails !== undefined">
+    <div class="mt-3 ms-3 ">
+      <div class="card border-primary mb-3 "  style="max-width: 40rem">
+        <div class="card-header">ID:{{ projectDetails.id }}</div>
+        <div class="card-body text-primary">
+          <h5 class="card-title">Name:{{ projectDetails.name }}</h5>
+          <p class="card-text">Description:
+            {{ projectDetails.description }}
+          </p>
+          <p class="card-text">ProjectManager:
+            {{ projectDetails.projectManager }}
+          </p>
+          <p class="card-text">ProjectDeadLine:
+            {{ projectDetails.projectDeadline }}
+          </p>
+          <hr>
+          <ul *ngFor="let prodetails of projectDetails.teams" >Teams:
+           <li>
+            <p class="card-text">ID:
+                {{ prodetails.id }}
+              </p></li>
+              <li>
+              <p class="card-text">Name:
+                {{ prodetails.name }}
+              </p>
+            </li>
+            </ul>
+         <hr>
+         <ul *ngFor="let prodetails of projectDetails.technologies" >Technology:
+            <li>
+             <p class="card-text">ID:
+                 {{ prodetails.id }}
+               </p></li>
+               <li>
+               <p class="card-text">Name:
+                 {{ prodetails.name }}
+               </p>
+             </li>
+             </ul>
+          
+          <p><a class="btn btn-info" routerLink="timesheets">TimeSheets</a></p>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  

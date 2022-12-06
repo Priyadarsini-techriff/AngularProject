@@ -1,0 +1,27 @@
+
+        <hr>
+        <table class="table table-striped table-dark mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">ProjectManager</th>
+                    <th scope="col">ProjectDeadLine</th>
+                </tr>
+        
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of projectList">
+                    <td>{{data.id}}</td>
+                    <td><a routerLink="{{ data.id }}" class="text-decoration-none">{{data.name}}</a></td>
+                    <td>{{data.description}}</td>
+                    <td>{{data.projectManager}}</td>
+                    <td>{{data.projectDeadline}}</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+
+

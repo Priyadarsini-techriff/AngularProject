@@ -1,0 +1,30 @@
+
+        <hr>
+        <table class="table table-striped table-dark mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">ApproverEmail</th>
+                    <th scope="col">ApproverName</th>
+                    <th scope="col">DateCreated</th>
+                    <th scope="col">AssignedOn</th>
+                    <th scope="col">LasttimeEntryOn</th>
+                </tr>
+        
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of timesheetList">
+                    <td>{{data.id}}</td>
+                    <td>{{data.ApproverEmail}}</td>
+                    <td><a routerLink="{{ data.id }}" class="text-decoration-none">{{data.ApproverName}}</a></td>
+                    <td>{{data.DateCreated}}</td>
+                    <td>{{data.assignedOn}}</td>
+                    <td>{{data.lasttimeEntryOn}}</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+
+
+

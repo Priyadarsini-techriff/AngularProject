@@ -1,0 +1,44 @@
+
+<ng-container *ngIf="timesheetDetails !== undefined">
+    <div class="mt-3 ms-3 ">
+      <div class="card border-primary mb-3 "  style="max-width:50rem">
+        <div class="card-header">ID:{{ timesheetDetails.id }}</div>
+        <div class="card-body text-primary">
+          <h5 class="card-title">ApproverName:{{ timesheetDetails.ApproverName}}</h5>
+          <p class="card-text">ApproverEmail:
+            {{ timesheetDetails.ApproverEmail }}
+          </p>
+          <p class="card-text">DateCreated:
+            {{ timesheetDetails.DateCreated }}
+          </p>
+          <p class="card-text">AssignedOn:
+            {{ timesheetDetails.assignedOn }}
+          </p>
+          <p class="card-text">lastTimeEntryOn:
+            {{ timesheetDetails.lasttimeEntryOn }}
+          </p>
+          <hr>
+          <ul *ngFor="let timedetails of timesheetDetails.TimeEntries" >TimeEntries:
+           <li>
+            <p class="card-text">ActualHours:
+                {{ timedetails.ActualHours }}
+              </p></li>
+              <li>
+              <p class="card-text">TimeKey:
+                {{ timedetails.TimeKey }}
+              </p>
+            </li>
+            </ul>
+         <hr>
+         <p class="card-text">TimeSheetKey:
+            {{ timesheetDetails.TimeSheetKey }}
+          </p>
+          <p class="card-text">UserEmail:
+            {{ timesheetDetails.UserEmail }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  
+

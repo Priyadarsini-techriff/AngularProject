@@ -1,0 +1,415 @@
+{
+    "clients": [
+        {
+            "id": 1,
+            "name": "Charina-client",
+            "address": "21 2nd Street,New York city NY,10021",
+            "phone": "212 555-1234",
+            "email": "charina@gmail.com",
+            "project": [
+                "Editable grid",
+                "bulkedit",
+                "Tsp"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "X-client",
+            "address": "212 2nd Street,Bhubaneswar city ,Ind,55673",
+            "phone": "9876543210",
+            "email": "xclient@gmail.com",
+            "project": [
+                "ProjectX",
+                "bulkedit",
+                "ProjectC"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Y-client",
+            "address": "24 2nd Street,New York city NY,10021",
+            "phone": "212 555-1234",
+            "email": "yclient@gmail.com",
+            "project": [
+                "ProjectY",
+                "ProjectA"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Editable grid",
+            "description": "Project1Description",
+            "projectManager": "Alex",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 1,
+                    "name": "The Major Eagles"
+                },
+                {
+                    "id": 1,
+                    "name": "The Grand Cats"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 2,
+                    "name": "NLP"
+                },
+                {
+                    "id": 1,
+                    "name": "Machine Learning"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "bulkedit",
+            "description": "Project2Description",
+            "projectManager": "Martin",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 3,
+                    "name": "The Grave Sirens"
+                },
+                {
+                    "id": 4,
+                    "name": "The True Ravens"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 1,
+                    "name": "Machine Learning"
+                },
+                {
+                    "id": 2,
+                    "name": "NLP"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Tsp",
+            "description": "Project3Description",
+            "projectManager": "Alex",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 5,
+                    "name": "The Steel Wolves"
+                },
+                {
+                    "id": 6,
+                    "name": "The Valiant Claws"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 3,
+                    "name": "Java Enterprise"
+                },
+                {
+                    "id": 4,
+                    "name": "Visa Payments"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "ProjectX",
+            "description": "Project4Description",
+            "projectManager": "Alex",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 7,
+                    "name": "The Happy Toucans"
+                },
+                {
+                    "id": 8,
+                    "name": "The Red Beluga Whales"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 4,
+                    "name": "Visa Payments"
+                },
+                {
+                    "id": 5,
+                    "name": "Amazon (AWS)"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "ProjectC",
+            "description": "Project5Description",
+            "projectManager": "Martin",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 9,
+                    "name": "The Handsome Boars"
+                },
+                {
+                    "id": 10,
+                    "name": "The Wild Tornadoes"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 5,
+                    "name": "Amazon (AWS)"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "ProjectY",
+            "description": "Project6Description",
+            "projectManager": "Alex",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 11,
+                    "name": "The Rapid Pumas"
+                },
+                {
+                    "id": 12,
+                    "name": "The Flying Titans"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 6,
+                    "name": "Angular"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "ProjectA",
+            "description": "Project7Description",
+            "projectManager": "Martin",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 7,
+                    "name": "Lund"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 11,
+                    "name": "The Rapid Pumas"
+                },
+                {
+                    "id": 12,
+                    "name": "The Flying Titans"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 7,
+                    "name": "React"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Manhattan Project",
+            "description": "Project8Description",
+            "projectManager": "Alex",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-11-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 13,
+                    "name": "The Big Gnomes"
+                },
+                {
+                    "id": 14,
+                    "name": "The Storm Turkeys"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 8,
+                    "name": "JavaScript"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Durango",
+            "description": "Project9Description",
+            "projectManager": "Martin",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2016",
+                    "lasttimeEntryOn": "09-06-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 15,
+                    "name": "The Fiery Hogs"
+                },
+                {
+                    "id": 16,
+                    "name": "The Hard Royals"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 8,
+                    "name": "JavaScript"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Apollo",
+            "description": "Project10Description",
+            "projectManager": "Alex",
+            "projectDeadline": "26-11-2018",
+            "timeSheets": [
+                {
+                    "assignedOn": "10-12-2017",
+                    "lasttimeEntryOn": "09-12-2017"
+                }
+            ],
+            "teams": [
+                {
+                    "id": 17,
+                    "name": "The Swift Wombats"
+                },
+                {
+                    "id": 18,
+                    "name": "The Fantastic Badgers"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 10,
+                    "name": "Python"
+                }
+            ]
+        }
+    ],
+    "timesheets": [
+        {
+            "id":1,
+            "ApproverEmail": "charina@gmail.com",
+            "ApproverName": "The Major Eagles",
+            "DateCreated": "23-06-2020",
+            "assignedOn": "10-12-2016",
+            "lasttimeEntryOn": "09-06-2017",
+            "TimeEntries": [
+                {
+                    "ActualHours": 2,
+                    "TimeKey": "This is a unique code much like a UUID from FileMaker."
+                },
+                {
+                    "ActualHours": 1.5,
+                    "TimeKey": "This is a unique code much like a UUID from FileMaker."
+                }
+            ],
+            "TimeSheetKey": "This is a unique code much like a UUID from FileMaker.",
+            "UserEmail": "charina@gmail.com"
+        },
+        {
+            "id":2,
+            "ApproverEmail": "yclient@gmail.com",
+            "ApproverName": "The Swift Wombats",
+            "DateCreated": "23-06-2020",
+            "assignedOn": "10-12-2016",
+            "lasttimeEntryOn": "09-06-2017",
+            "TimeEntries": [
+                {
+                    "ActualHours": 2,
+                    "TimeKey": "This is a unique code much like a UUID from FileMaker."
+                },
+                {
+                    "ActualHours": 1.5,
+                    "TimeKey": "This is a unique code much like a UUID from FileMaker."
+                }
+            ],
+            "TimeSheetKey": "This is a unique code much like a UUID from FileMaker.",
+            "UserEmail": "yclient@gmail.com"
+        },
+        {
+            "id":3,
+            "ApproverEmail": "xclient@gmail.com",
+            "ApproverName": "The Fantastic Badgers",
+            "DateCreated": "23-06-2020",
+            "assignedOn": "10-12-2016",
+            "lasttimeEntryOn": "09-06-2017",
+            "TimeEntries": [
+                {
+                    "ActualHours": 2,
+                    "TimeKey": "This is a unique code much like a UUID from FileMaker."
+                },
+                {
+                    "ActualHours": 1.5,
+                    "TimeKey": "This is a unique code much like a UUID from FileMaker."
+                }
+            ],
+            "TimeSheetKey": "This is a unique code much like a UUID from FileMaker.",
+            "UserEmail": "xclient@gmail.com"
+        }
+    ]
+}

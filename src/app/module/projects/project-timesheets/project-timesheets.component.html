@@ -1,0 +1,21 @@
+<p>project-timesheets works!</p>
+<ng-container *ngIf="timesheetDetails !== undefined">
+    <div class="mt-3">
+      <div class="card  border-primary"  style="max-width: 30rem">
+        <h5 class="card-header">Timesheets</h5>
+        <div class="card-body">
+            <ul *ngFor="let timedetail of timesheetDetails.timeSheets" >TimeSheets:
+                <li>
+                 <p class="card-text">Assigned On:
+                     {{ timedetail.assignedOn }}
+                   </p></li>
+                   <li>
+                   <p class="card-text">LastTime Entry:
+                     {{ timedetail.lasttimeEntryOn }}
+                   </p>
+                 </li>
+                 </ul>
+        </div>
+      </div>
+    </div>
+  </ng-container>

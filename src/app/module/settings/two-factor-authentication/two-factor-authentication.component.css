@@ -1,0 +1,12 @@
+
+    .icon-block{
+        width: 100px;
+        height: 100px;
+        border-radius:50px;
+        text-align:center;
+        display:flex;
+        align-items:center;
+        background-color: cornflowerblue;
+        
+        
+    }
